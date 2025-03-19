@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+
+#main {
+    border: 1px solid black;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 80%;
+
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+}
+
+input[type="text"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+.error-message {
+    display: none;
+    color: red;
+    font-size: 0.8em;
+}
+
+input:invalid + .error-message {
+    display: block;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+#Formcontact {
+    border:1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    
+    
+#text {
+    border-radius: 15px; 
+    width: 40%;
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-color: black;
+}
+
+}
+
+
+#number {
+    border-radius: 15px;
+    width: 30%;
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-color: black;
+
+}
+
+
+svg{
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
